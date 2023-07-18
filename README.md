@@ -306,10 +306,10 @@ If the last step result was successful, then congratulation, you're now a proud 
 
 the last thing you need to do is to: in the recovery menu go to `Reboot System Now`.
 
-If you plan to root your phone then you can go to [Rooting_phone_with_magisk](#Rooting_phone_with_magisk) section. otherwise your done.
+If you plan to root your phone then you can go to [Rooting_phone_with_magisk](#Rooting-phone-with-magisk) section. otherwise your done.
 
 ***
-### Rooting_phone_with_magisk
+### Rooting phone with magisk
 
 In the last step we have flashed our phone with the Evolution_x ROM, and now we're going to root our device. In order to do that, you need to setup your device first and [Enable your phone's USB debugging](#enable-your-phones-usb-debugging) option.
 
