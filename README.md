@@ -306,7 +306,7 @@ If the last step result was successful, then congratulation, you're now a proud 
 
 the last thing you need to do is to: in the recovery menu go to `Reboot System Now`.
 
-If you plan to root your phone then you can go to [Rooting_phone_with_magisk](#Rooting-phone-with-magisk) section. otherwise your done.
+If you plan to root your phone then you can go to [Rooting phone with magisk](#Rooting-phone-with-magisk) section. otherwise your done.
 
 ***
 ### Rooting phone with magisk
