@@ -124,7 +124,7 @@ chmod +x payload-dumper-go
 
 #### <span style="color:orange">Warning:</span> Remember to sign out of your google accounts and remove screen lock.
 
-In order to flash the original ROM you first need to download your phone's original ROM (Go to [Requirements](https://github.com/saeedNW/Xiaomi-Evolution_x-ROM-Installation#requirements) section). The downloaded file will be a archived file which you need to extract it and open a terminal window in the extracted directory. and run the `ls` command. The output should be like this
+In order to flash the original ROM you first need to download your phone's original ROM (Go to [Requirements](#requirements) section). The downloaded file will be a archived file which you need to extract it and open a terminal window in the extracted directory. and run the `ls` command. The output should be like this
 ```text
 flash_all.bat  flash_all_except_data_storage.bat  flash_all_lock.bat  flash_gen_crc_list.py  images      misc.txt
 flash_all.sh   flash_all_except_data_storage.sh   flash_all_lock.sh   flash_gen_md5_list.py  md5sum.xml  
