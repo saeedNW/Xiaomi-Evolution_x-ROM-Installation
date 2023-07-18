@@ -113,7 +113,7 @@ chmod +x payload-dumper-go
 ```
 
 ***
-### Enable_USB_debugging_on_phone
+### Enable your phone's USB debugging
 
 1. Enable developer options in `Settings` > `About Phone` by repeatedly tapping `build number`.
 2. Enable USB debugging `Settings` > `System` or `Additional options` > `Developer options` > `USB debugging`
@@ -124,7 +124,7 @@ chmod +x payload-dumper-go
 
 #### <span style="color:orange">Warning:</span> Remember to sign out of your google accounts and remove screen lock.
 
-In order to flash the original ROM you first need to download your phone's original ROM (Go to [Requirements](#Requirements) section). The downloaded file will be a archived file which you need to extract it and open a terminal window in the extracted directory. and run the `ls` command. The output should be like this
+In order to flash the original ROM you first need to download your phone's original ROM (Go to [Requirements](https://github.com/saeedNW/Xiaomi-Evolution_x-ROM-Installation#requirements) section). The downloaded file will be a archived file which you need to extract it and open a terminal window in the extracted directory. and run the `ls` command. The output should be like this
 ```text
 flash_all.bat  flash_all_except_data_storage.bat  flash_all_lock.bat  flash_gen_crc_list.py  images      misc.txt
 flash_all.sh   flash_all_except_data_storage.sh   flash_all_lock.sh   flash_gen_md5_list.py  md5sum.xml  
@@ -207,7 +207,7 @@ This will return true if the device supports dual partitions and false if it's n
 
 #### <span style="color:orange">Warning:</span> Remember to sign out of your google accounts and remove screen lock.
 
-In order to flash the Evolution_x ROM you fist need to download the ROM for your phone (Go to [Requirements](#Requirements) section). The downloaded file will be a archived file which you need to extract.
+In order to flash the Evolution_x ROM you fist need to download the ROM for your phone (Go to [Requirements](https://github.com/saeedNW/Xiaomi-Evolution_x-ROM-Installation#requirements) section). The downloaded file will be a archived file which you need to extract.
 
 After extracting the file contents, you need to extract payload data from the `payload.bin` file. In order to do this there are two options
 
