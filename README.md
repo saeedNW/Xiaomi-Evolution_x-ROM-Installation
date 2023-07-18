@@ -179,6 +179,8 @@ If you plan to install a custom ROM on your phone then setup it without any pass
 ***
 ### Check phone's partition type
 
+[Enable your phone's USB debugging](#enable-your-phones-usb-debugging)
+
 Before continuing you need to check your phone's partition type. Generally there are two types for android phones partitions
 1. A-Only System Partition
 2. A/B System Partition
@@ -204,6 +206,8 @@ Now run this command to check your phone partition type
 getprop ro.build.ab_update
 ```
 
+use `CTRL` + `D` to close `adb shell`
+
 This will return true if the device supports dual partitions and false if it's not.
 
 ***
@@ -227,7 +231,7 @@ Option #2: If you're using the universal method of the `payload-dumper-go` insta
 ./payload-dumper-go path/to/payload.bin
 ```
 
-After running this command there will be a new folder with a name such as `extracted_20230717_175100` or `META-INF` in the same directory as the `payload.bin` file. Open it in terminal.
+After running this command there will be a new folder with a name such as `extracted_20230717_175100` in the same directory as the `payload.bin` file. Open it in terminal.
 
 Before going any farther you need to connect your phone to the system. Run this command to check if your phone is connected correctly
 ```shell
@@ -274,7 +278,7 @@ fastboot flash recovery boot.img
 ```
 
 Now boot to the phone's recovery menu
-```
+```shell
 fastboot reboot recovery
 ```
 
@@ -290,21 +294,21 @@ adb devices
 output example:
 ```shell
 # List of devices attached
-# <phone_id>    device
+# <phone_id>    sideload
 ```
 
-if the connection is fine then open a terminal in the current directory of the Evolution_x zip file that you have downloaded  at the beginning of this section and run this command to flash it to your phone. make sure to replace `evolution_x_filename.zip` with the actual file name
+if the connection is fine then open a terminal in the current directory of the Evolution_x archived file that you have downloaded  at the beginning of this section and run this command to flash it to your phone. make sure to replace `evolution_x_filename.zip` with the actual file name
 ```shell
 adb sideload evolution_x_filename.zip
 ```
 
 **Note:** The ROM installation progress percentage indicator will most likely be stuck somewhere between 37-47%. Don't worry there is no problem, let the system continue to work until the process is finished. After the process is complete, a message stating that the process was successful with a status code of 0 should be printed on the phone screen in the reports section. If so, you can move on.
 
-Now, you need to format your phone to factory settings, in order to do that in the recovery menu go to `Factory Reset` > `Format Data` or `Factory Reset` > choose `yes`
+Now, you need to format your phone to factory settings, in order to do that in the recovery menu go to `Factory Reset` > `Format Data/Factory Reset` > choose `yes` or `Format data`
 
 If the last step result was successful, then congratulation, you're now a proud owner of a Xiaomi phone with the Evolution_x ROM as the phone's Operating System. 
 
-the last thing you need to do is to: in the recovery menu go to `Reboot System Now`.
+the last thing you need to do is to go to `Reboot System Now` in the recovery menu.
 
 If you plan to root your phone then you can go to [Rooting phone with magisk](#Rooting-phone-with-magisk) section. otherwise your done.
 
