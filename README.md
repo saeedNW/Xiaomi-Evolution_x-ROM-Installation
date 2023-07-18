@@ -135,7 +135,7 @@ Run this command to check if your phone is connected correctly
 adb devices
 ```
 
-put example:
+output example:
 ```shell
 # List of devices attached
 # <phone_id>    device
@@ -186,8 +186,10 @@ Before continuing you need to check your phone's partition type. Generally there
 In order to check your phone's partition type connect your phone to the system and run this command to check if it's connected correctly
 ```shell
 adb devices
+```
 
-# output example:
+output example:
+```shell
 # List of devices attached
 # <phone_id>    device
 ```
@@ -230,8 +232,10 @@ After running this command there will be a new folder with a name such as `extra
 Before going any farther you need to connect your phone to the system. Run this command to check if your phone is connected correctly
 ```shell
 adb devices
+```
 
-# output example:
+output example:
+```shell
 # List of devices attached
 # <phone_id>    device
 ```
@@ -244,9 +248,11 @@ adb reboot bootloader
 and after your phone has been loaded into the bootloader, you can run this command to check your phone is connected
 ```shell
 fastboot devices
+```
 
-# output example:
-# <phone_id>    device
+output example:
+```shell
+# <phone_id>     fastboot
 ```
 
 If the connection is fine, you can continue with the next step. 
@@ -279,8 +285,10 @@ Now your phone is ready to be flashed with the Evolution_x ROM. in recovery menu
 Run this command to check if your phone is connected correctly
 ```shell
 adb devices
+```
 
-# output example:
+output example:
+```shell
 # List of devices attached
 # <phone_id>    device
 ```
@@ -308,8 +316,10 @@ In the last step we have flashed our phone with the Evolution_x ROM, and now we'
 Connect your phone to your system again and check if your phone is connected correctly
 ```shell
 adb devices
+```
 
-# output example:
+output example:
+```shell
 # List of devices attached
 # <phone_id>    device
 ```
@@ -324,8 +334,10 @@ In the recovery menu go to `Apply update` > `Apply From ADB`
 Check if your phone is connected correctly
 ```shell
 adb devices
+```
 
-# output example:
+output example:
+```shell
 # List of devices attached
 # <phone_id>    device
 ```
