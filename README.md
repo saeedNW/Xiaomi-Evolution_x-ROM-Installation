@@ -133,23 +133,27 @@ flash_all.sh   flash_all_except_data_storage.sh   flash_all_lock.sh   flash_gen_
 Run this command to check if your phone is connected correctly
 ```shell
 adb devices
+```
 
-# output example:
+put example:
+```shell
 # List of devices attached
 # <phone_id>    device
 ```
 
 Now you need to reboot your phone in to the bootloader
-```
+```shell
 adb reboot bootloader
 ```
 
 and after your phone has been loaded into the bootloader, you can run this command to check your phone connection
 ```shell
 fastboot devices
+```
 
-# output example:
-# <phone_id>    device
+output example:
+```shell
+# <phone_id>     fastboot
 ```
 
 Now there are two options:
@@ -170,7 +174,7 @@ sh flash_all.sh
 
 After the process is finished, the phone should be rebooted into MIUI operating system.
 
-If you plan to install a custom ROM on your phone then setup your phone without any passwords and don't login to any accounts. But if you wan't to keep the MIUI then feel free to setup it completely 
+If you plan to install a custom ROM on your phone then setup it without any passwords and don't login to any accounts. But if you wan't to keep the MIUI then feel free to setup it completely 
 
 ***
 ### Check phone's partition type
