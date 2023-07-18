@@ -203,7 +203,7 @@ This will return true if the device supports dual partitions and false if it's n
 ***
 ### Flashing the  Evolution_x ROM
 
-[Enable your phone's USB debugging](enable-your-phones-usb-debugging)
+[Enable your phone's USB debugging](#enable-your-phones-usb-debugging)
 
 #### <span style="color:orange">Warning:</span> Remember to sign out of your google accounts and remove screen lock.
 
@@ -299,7 +299,7 @@ If you plan to root your phone then you can go to [Rooting_phone_with_magisk](#R
 ***
 ### Rooting_phone_with_magisk
 
-In the last step we have flashed our phone with the Evolution_x ROM, and now we're going to root our device. In order to do that, you need to setup your device first and [Enable your phone's USB debugging](enable-your-phones-usb-debugging) option.
+In the last step we have flashed our phone with the Evolution_x ROM, and now we're going to root our device. In order to do that, you need to setup your device first and [Enable your phone's USB debugging](#enable-your-phones-usb-debugging) option.
 
 Connect your phone to your system again and check if your phone is connected correctly
 ```shell
