@@ -207,7 +207,7 @@ This will return true if the device supports dual partitions and false if it's n
 
 #### <span style="color:orange">Warning:</span> Remember to sign out of your google accounts and remove screen lock.
 
-In order to flash the Evolution_x ROM you fist need to download the ROM for your phone (Go to [Requirements](https://github.com/saeedNW/Xiaomi-Evolution_x-ROM-Installation#requirements) section). The downloaded file will be a archived file which you need to extract.
+In order to flash the Evolution_x ROM you fist need to download the ROM for your phone (Go to [Requirements](#requirements) section). The downloaded file will be a archived file which you need to extract.
 
 After extracting the file contents, you need to extract payload data from the `payload.bin` file. In order to do this there are two options
 
