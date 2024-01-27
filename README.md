@@ -77,6 +77,11 @@ sudo dnf install android-tools
 sudo pacman -Sy android-tools
 ```
 
+**Other linux option:**
+
+download the main source files from [developer-android](https://developer.android.com/tools/releases/platform-tools) website
+
+
 ***
 ### payload-dumper-go utility installation
 
